@@ -36,6 +36,9 @@ test = []
 [project.scripts]
 opentelemetry-bootstrap = "opentelemetry.instrumentation.bootstrap:run"
 opentelemetry-instrument = "opentelemetry.instrumentation.auto_instrumentation:run"
+middleware-bootstrap = "opentelemetry.instrumentation.bootstrap:run"
+middleware-instrument = "opentelemetry.instrumentation.auto_instrumentation:run"
+
 
 [project.entry-points.opentelemetry_environment_variables]
 instrumentation = "opentelemetry.instrumentation.environment_variables"
