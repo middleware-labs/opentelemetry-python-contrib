@@ -54,3 +54,7 @@ include = [
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/opentelemetry"]
+
+
+[tool.setuptools]
+py-modules = []
